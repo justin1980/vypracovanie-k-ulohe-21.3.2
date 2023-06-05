@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>odpočítavač dní do narodín</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js" integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+  <div class="container">
+   <h1>zadaj svoj datum narodenín</h1>
+   <input type="date" name="date" id="date">
+   <h1>zisti za kolko dní máš narodeniny</h1>
+   <button id="narodeniny" onclick="narodeniny()">zistiť</button>
+   <p id="narodeniny_text"></p>
+   <img src="" id="seasonPicture">
+   <p id="zostavaDni"></p>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>

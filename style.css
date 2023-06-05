@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lime;
+}
+
+.container {
+    background-color: white;
+    width: 75%;
+    height: 600px;
+    margin:3% auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+#date,#narodeniny {
+    font-weight: 900;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 30px;
+
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
